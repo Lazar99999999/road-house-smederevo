@@ -4,273 +4,282 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Road House | Grill & Pizza Smederevo</title>
+    <title>Road House Smederevo | Grill & Pizza</title>
+    <meta name="description" content="Road House Smederevo – domaći roštilj, vrhunske pice, sendviči i palačinke. Kolarski put 229. Pozovite 062 533 663.">
+    <meta name="theme-color" content="#0b0b0b">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- NAVIGACIJA -->
+    <div class="top-strip">
+        <div class="container top-strip-inner">
+            <span>🔥 DOMAĆI ROŠTILJ &amp; VRHUNSKE PICE</span>
+            <a href="tel:062533663">062 533 663</a>
+        </div>
+    </div>
+
     <header class="header">
         <div class="container nav">
-
-            <a href="#" class="logo">
-                🔥 ROAD <span>HOUSE</span>
+            <a href="#pocetna" class="logo">
+                <span class="logo-fire">🔥</span>
+                <span>ROAD <b>HOUSE</b></span>
             </a>
 
-            <nav>
+            <nav class="desktop-nav">
                 <a href="#pocetna">Početna</a>
-                <a href="#ponuda">Ponuda</a>
+                <a href="#meni">Meni</a>
                 <a href="#o-nama">O nama</a>
                 <a href="#kontakt">Kontakt</a>
             </nav>
 
-            <a href="tel:062533663" class="nav-button">
-                PORUČI
-            </a>
-
+            <a href="tel:062533663" class="nav-order">PORUČI <span>→</span></a>
         </div>
     </header>
 
+    <main id="pocetna">
 
-    <!-- HERO -->
-    <main>
+        <section class="hero">
+            <div class="hero-glow glow-one"></div>
+            <div class="hero-glow glow-two"></div>
 
-        <section id="pocetna" class="hero">
-
-            <div class="container hero-content">
-
-                <div class="hero-text">
-
-                    <div class="badge">
-                        🔥 GRILL & PIZZA
-                    </div>
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <div class="eyebrow"><span></span> SMEDEREVO • KOLarski put</div>
 
                     <h1>
                         UKUS KOJI
-                        <span>SE PAMTI.</span>
+                        <strong>SE PAMTI.</strong>
                     </h1>
 
-                    <p>
-                        Pravi domaći roštilj i vrhunske pice
-                        na našem testu.
+                    <p class="hero-text">
+                        Pravi domaći roštilj, vrhunske pice i omiljeni klasici.
+                        Sve sveže, ukusno i spremljeno po porudžbini.
                     </p>
 
-                    <div class="hero-buttons">
-
-                        <a href="#ponuda" class="button yellow">
-                            POGLEDAJ PONUDU
-                        </a>
-
-                        <a href="tel:062533663" class="button dark">
-                            📞 062 533 663
-                        </a>
-
+                    <div class="hero-actions">
+                        <a href="#meni" class="btn btn-primary">POGLEDAJ MENI <span>↘</span></a>
+                        <a href="tel:062533663" class="btn btn-outline">📞 062 533 663</a>
                     </div>
 
+                    <div class="hero-info">
+                        <div>
+                            <b>ROAD HOUSE</b>
+                            <span>Grill &amp; Pizza</span>
+                        </div>
+                        <div class="divider"></div>
+                        <div>
+                            <b>SMEDEREVO</b>
+                            <span>Kolarski put 229</span>
+                        </div>
+                    </div>
                 </div>
 
-
-                <div class="hero-food">
-
-                    <div class="food-circle">
-                        🍔
+                <div class="hero-art" aria-hidden="true">
+                    <div class="art-ring ring-1"></div>
+                    <div class="art-ring ring-2"></div>
+                    <div class="food-orb">
+                        <div class="pizza-emoji">🍕</div>
+                        <div class="food-flame">🔥</div>
                     </div>
 
-                    <div class="floating-card">
-                        <strong>ROAD HOUSE</strong>
-                        <small>Grill & Pizza</small>
+                    <div class="floating-card card-top">
+                        <span>★</span>
+                        <div><b>DOMAĆI UKUS</b><small>Pravljeno s pažnjom</small></div>
                     </div>
 
+                    <div class="floating-card card-bottom">
+                        <span>🍔</span>
+                        <div><b>FRESH &amp; HOT</b><small>Spremamo po porudžbini</small></div>
+                    </div>
                 </div>
-
             </div>
 
+            <div class="hero-bottom">
+                <div class="container hero-bottom-inner">
+                    <span>GRILL</span><i>•</i>
+                    <span>PIZZA</span><i>•</i>
+                    <span>SENDVIČI</span><i>•</i>
+                    <span>PALAČINKE</span>
+                </div>
+            </div>
         </section>
 
-
-        <!-- PONUDA -->
-        <section id="ponuda" class="section">
-
+        <section id="meni" class="menu-section">
             <div class="container">
-
-                <div class="section-heading">
-
-                    <p>NAŠA PONUDA</p>
-
-                    <h2>
-                        IZABERI SVOJ
-                        <span>FAVORIT</span>
-                    </h2>
-
+                <div class="section-head">
+                    <div>
+                        <span class="section-kicker">ROAD HOUSE MENU</span>
+                        <h2>IZABERI SVOJ <em>FAVORIT.</em></h2>
+                    </div>
+                    <p>Naša ponuda na jednom mestu.<br>Izaberi kategoriju i pronađi ono što voliš.</p>
                 </div>
 
-
-                <div class="cards">
-
-                    <article class="card">
-                        <div class="card-image burger">
-                            🍔
-                        </div>
-
-                        <div class="card-content">
-                            <h3>Burgeri</h3>
-
-                            <p>
-                                Sočni burgeri pripremljeni
-                                od kvalitetnih sastojaka.
-                            </p>
-
-                            <a href="#kontakt">
-                                PORUČI →
-                            </a>
-                        </div>
-                    </article>
-
-
-                    <article class="card">
-                        <div class="card-image pizza">
-                            🍕
-                        </div>
-
-                        <div class="card-content">
-                            <h3>Pizza</h3>
-
-                            <p>
-                                Vrhunske pice pečene
-                                na našem testu.
-                            </p>
-
-                            <a href="#kontakt">
-                                PORUČI →
-                            </a>
-                        </div>
-                    </article>
-
-
-                    <article class="card">
-                        <div class="card-image grill">
-                            🥩
-                        </div>
-
-                        <div class="card-content">
-                            <h3>Roštilj</h3>
-
-                            <p>
-                                Pravi domaći roštilj
-                                spremljen po porudžbini.
-                            </p>
-
-                            <a href="#kontakt">
-                                PORUČI →
-                            </a>
-                        </div>
-                    </article>
-
+                <div class="menu-tabs">
+                    <a href="#najprodavanije" class="active">Najprodavanije</a>
+                    <a href="#rostilj">Roštilj</a>
+                    <a href="#pizze">Pizze</a>
+                    <a href="#sendvici">Sendviči</a>
+                    <a href="#palacinke">Palačinke</a>
                 </div>
 
+                <div id="najprodavanije" class="featured">
+                    <div class="featured-label">🔥 NAJPRODAVANIJE</div>
+                    <div class="featured-grid">
+                        <article class="featured-card">
+                            <div class="food-placeholder pizza-bg"><span>🍕</span></div>
+                            <div class="featured-content">
+                                <small>PIZZA</small>
+                                <h3>Pizza Capricciosa</h3>
+                                <p>Pelat, šunka, kačkavalj, pečurke, masline</p>
+                                <strong>1.230 RSD</strong>
+                            </div>
+                        </article>
+
+                        <article class="featured-card">
+                            <div class="food-placeholder grill-bg"><span>🍔</span></div>
+                            <div class="featured-content">
+                                <small>ROŠTILJ</small>
+                                <h3>Gurmanska 250g</h3>
+                                <p>Gurmanska pljeskavica 250g, odaberite priloge</p>
+                                <strong>800 RSD</strong>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div id="rostilj" class="menu-category">
+                    <div class="category-title">
+                        <span>01</span>
+                        <div><small>ROŠTILJ &amp; GLAVNA JELA</small><h3>SA ROŠTILJA</h3></div>
+                    </div>
+
+                    <div class="menu-list">
+                        <article class="menu-item"><div class="item-icon">🥩</div><div><h4>Gurmanska 250g</h4><p>Gurmanska 250g, odaberite priloge</p></div><b>800 RSD</b></article>
+                        <article class="menu-item"><div class="item-icon">🌭</div><div><h4>Kobasica sa kačkavaljem</h4><p>200g, odaberite priloge</p></div><b>676 RSD</b></article>
+                        <article class="menu-item"><div class="item-icon">🍗</div><div><h4>Pileće belo meso 200g</h4><p>Belo meso 200g, odaberite priloge</p></div><b>615 RSD</b></article>
+                        <article class="menu-item"><div class="item-icon">🌭</div><div><h4>Kobasica 200g</h4><p>Kobasica 200g, odaberite priloge</p></div><b>615 RSD</b></article>
+                        <article class="menu-item"><div class="item-icon">🍗</div><div><h4>Batak 200g</h4><p>Batak 200g, odaberite priloge</p></div><b>555 RSD</b></article>
+                        <article class="menu-item"><div class="item-icon">🥩</div><div><h4>Pljeskavica</h4><p>Odaberite priloge</p></div><b>500 RSD</b></article>
+                        <article class="menu-item"><div class="item-icon">🍗</div><div><h4>Pileći štapići 150g</h4><p>Specijalitet kuće 150g, odaberite priloge</p></div><b>500 RSD</b></article>
+                    </div>
+                </div>
+
+                <div id="pizze" class="menu-category">
+                    <div class="category-title">
+                        <span>02</span>
+                        <div><small>PIZZE</small><h3>IZ PEĆI</h3></div>
+                    </div>
+
+                    <div class="menu-list">
+                        <article class="menu-item"><div class="item-icon">🍕</div><div><h4>Pizza Capricciosa</h4><p>Pelat, šunka, kačkavalj, pečurke, masline</p></div><b>1.230 RSD</b></article>
+                        <article class="menu-item"><div class="item-icon">🍕</div><div><h4>Pizza Kulen</h4><p>Pelat, kulen, kačkavalj, masline</p></div><b>1.230 RSD</b></article>
+                        <article class="menu-item"><div class="item-icon">🍕</div><div><h4>Pizza Margherita</h4><p>Pelat, mozzarella, bosiljak</p></div><b>1.110 RSD</b></article>
+                    </div>
+                </div>
+
+                <div id="sendvici" class="menu-category">
+                    <div class="category-title">
+                        <span>03</span>
+                        <div><small>SENDVIČI</small><h3>ZA SVAKI ZALOGAJ</h3></div>
+                    </div>
+
+                    <div class="menu-list">
+                        <article class="menu-item"><div class="item-icon">🥪</div><div><h4>Topli sendvič sa šunkom</h4><p>Lepinja, šunka i prilozi po izboru</p></div><b>430 RSD</b></article>
+                        <article class="menu-item"><div class="item-icon">🥪</div><div><h4>Sendvič sa kulenom</h4><p>Lepinja, kulen i prilozi po izboru</p></div><b>430 RSD</b></article>
+                    </div>
+                </div>
+
+                <div id="palacinke" class="menu-category">
+                    <div class="category-title">
+                        <span>04</span>
+                        <div><small>PALAČINKE</small><h3>SLATKI ZAVRŠETAK</h3></div>
+                    </div>
+                    <div class="dessert-note">
+                        <span>🥞</span>
+                        <div><h4>Palačinke</h4><p>Pogledaj kompletnu ponudu i aktuelne kombinacije na Glovu.</p></div>
+                        <a href="https://glovoapp.com/sr/rs/smederevo/stores/road-house-smd" target="_blank" rel="noopener">GLovo MENI →</a>
+                    </div>
+                </div>
+
+                <div class="menu-cta">
+                    <div><span>CELOKUPNA PONUDA</span><h3>PORUČI KAD TI SE JEDE.</h3></div>
+                    <a href="https://glovoapp.com/sr/rs/smederevo/stores/road-house-smd" target="_blank" rel="noopener" class="btn btn-primary">OTVORI GLOVO <span>↗</span></a>
+                </div>
             </div>
-
         </section>
 
-
-        <!-- O NAMA -->
-        <section id="o-nama" class="about">
-
-            <div class="container about-content">
-
-                <div class="about-logo">
-                    🔥
+        <section id="o-nama" class="about-section">
+            <div class="container about-grid">
+                <div class="about-visual">
+                    <div class="about-box">
+                        <span>🔥</span>
+                        <strong>ROAD<br>HOUSE</strong>
+                        <small>SMEDEREVO</small>
+                    </div>
                 </div>
 
-                <div>
-
-                    <p class="section-label">
-                        ROAD HOUSE SMEDEREVO
-                    </p>
-
-                    <h2>
-                        DOBRA HRANA.
-                        <span>DOBRA ATMOSFERA.</span>
-                    </h2>
-
+                <div class="about-copy">
+                    <span class="section-kicker">ZAŠTO ROAD HOUSE?</span>
+                    <h2>DOBRA HRANA.<br><em>DOBAR OSEĆAJ.</em></h2>
                     <p>
-                        Dobrodošli u Road House.
-                        Kod nas vas očekuju domaći roštilj,
-                        ukusne pice i obrok napravljen
-                        sa pažnjom.
+                        Kod nas nema komplikovanja — dobar roštilj, dobra pizza
+                        i obrok napravljen tako da se vraćaš po još.
                     </p>
+                    <div class="about-points">
+                        <div><span>01</span><b>Domaći roštilj</b><small>Pripremljen po porudžbini.</small></div>
+                        <div><span>02</span><b>Vrhunske pice</b><small>Na našem testu, pune ukusa.</small></div>
+                        <div><span>03</span><b>Brza porudžbina</b><small>Pozovi ili poruči preko Glova.</small></div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                    <a href="tel:062533663" class="button yellow">
-                        POZOVI I PORUČI
+        <section id="kontakt" class="contact-section">
+            <div class="container contact-card">
+                <div class="contact-main">
+                    <span class="section-kicker">DOĐI • POZOVI • PORUČI</span>
+                    <h2>VIDIMO SE U<br><em>ROAD HOUSE-U.</em></h2>
+                    <p>Kolarski put 229, Smederevo</p>
+                </div>
+
+                <div class="contact-actions">
+                    <a href="tel:062533663" class="contact-row">
+                        <span>📞</span><div><small>TELEFON</small><b>062 533 663</b></div><strong>→</strong>
                     </a>
-
+                    <a href="https://www.instagram.com/roadhousesmederevo/" target="_blank" rel="noopener" class="contact-row">
+                        <span>◎</span><div><small>INSTAGRAM</small><b>@roadhousesmederevo</b></div><strong>→</strong>
+                    </a>
+                    <a href="https://glovoapp.com/sr/rs/smederevo/stores/road-house-smd" target="_blank" rel="noopener" class="contact-row">
+                        <span>🛵</span><div><small>DOSTAVA</small><b>Poruči preko Glova</b></div><strong>↗</strong>
+                    </a>
                 </div>
-
             </div>
-
         </section>
 
-
-        <!-- KONTAKT -->
-        <section id="kontakt" class="contact">
-
-            <div class="container">
-
-                <p class="section-label">
-                    GDE SMO?
-                </p>
-
-                <h2>
-                    VIDIMO SE U
-                    <span>ROAD HOUSE-U.</span>
-                </h2>
-
-                <div class="contact-grid">
-
-                    <div>
-                        <strong>📍 ADRESA</strong>
-                        <p>Kolarski put 229, Smederevo</p>
-                    </div>
-
-                    <div>
-                        <strong>📞 TELEFON</strong>
-                        <p>062 533 663</p>
-                    </div>
-
-                    <div>
-                        <strong>📱 INSTAGRAM</strong>
-                        <p>@roadhousesmederevo</p>
-                    </div>
-
+        <section class="map-section">
+            <div class="container map-inner">
+                <div>
+                    <span class="section-kicker">LOKACIJA</span>
+                    <h2>LAKO NAS <em>PRONAĐEŠ.</em></h2>
+                    <p>Kolarski put 229<br>Smederevo, Srbija</p>
                 </div>
-
-                <a href="tel:062533663" class="button yellow big-button">
-                    📞 PORUČI ODMAH
-                </a>
-
+                <a href="https://www.google.com/maps/search/?api=1&query=Kolarski+put+229,+Smederevo" target="_blank" rel="noopener" class="btn btn-light">OTVORI MAPU ↗</a>
             </div>
-
         </section>
-
     </main>
 
-
-    <!-- FOOTER -->
     <footer>
-
-        <div class="container footer-content">
-
-            <div>
-                <strong>🔥 ROAD HOUSE</strong>
-                <p>Grill & Pizza Smederevo</p>
-            </div>
-
-            <p>© 2026 Road House</p>
-
+        <div class="container footer-inner">
+            <div class="footer-logo">🔥 ROAD <b>HOUSE</b></div>
+            <p>Grill &amp; Pizza • Smederevo</p>
+            <span>© 2026 Road House</span>
         </div>
-
     </footer>
 
 </body>
